@@ -1,22 +1,20 @@
 package com.mws.llc.libs.asquare;
 
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.os.Build;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+import android.widget.TableLayout;
 
-public class SquareImageView extends ImageView {
-	public SquareImageView(Context context) {
-		super(context);
-	}
-
-	public SquareImageView(Context context, AttributeSet attrs) {
+public class SquareTableLayout extends TableLayout {
+	public SquareTableLayout(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 
-	public SquareImageView(Context context, AttributeSet attrs, int defStyle) {
-		super(context, attrs, defStyle);
+	public SquareTableLayout(Context context) {
+		super(context);
 	}
 
 	// Override onMeasure to make the layout square
@@ -26,11 +24,9 @@ public class SquareImageView extends ImageView {
 		boolean isJellyBean = android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN;
 		int minWidth = isJellyBean ? getMinimumWidth() : 0;
 		int minHeight = isJellyBean ? getMinimumHeight() : 0;
-		int maxWidth = isJellyBean ? getMaxWidth() : 0;
-		int maxHeight = isJellyBean ? getMaxHeight() : 0;
 
-		int size = Utils.measure(widthMeasureSpec, minWidth, maxWidth,
-				heightMeasureSpec, minHeight, maxHeight);
+		int size = Utils.measure(widthMeasureSpec, minWidth, 0,
+				heightMeasureSpec, minHeight, 0);
 		super.setMeasuredDimension(size, size);
 	}
 }

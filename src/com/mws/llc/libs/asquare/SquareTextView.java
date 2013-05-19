@@ -4,18 +4,18 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+import android.widget.TextView;
 
-public class SquareImageView extends ImageView {
-	public SquareImageView(Context context) {
+public class SquareTextView extends TextView {
+	public SquareTextView(Context context) {
 		super(context);
 	}
 
-	public SquareImageView(Context context, AttributeSet attrs) {
+	public SquareTextView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 
-	public SquareImageView(Context context, AttributeSet attrs, int defStyle) {
+	public SquareTextView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}
 

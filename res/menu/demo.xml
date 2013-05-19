@@ -1,9 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+    <item android:id="@+id/action_reset" android:title="Reset Layout" android:titleCondensed="Reset"></item>
+    
+    <item android:id="@+id/action_see_text_views" android:title="TextViews" android:titleCondensed="Texts"></item>
 
+    <item android:id="@+id/action_see_image_views" android:title="ImageViews" android:titleCondensed="Images"></item>
+    
+    <item android:id="@+id/action_see_frame_layouts" android:title="FrameLayouts" android:titleCondensed="Frames"></item>
+    
+    <item android:id="@+id/action_see_linear_layouts" android:title="LinearLayouts" android:titleCondensed="Linears"></item>
+        
+    <item android:id="@+id/action_see_relative_layouts" android:title="RelativeLayouts" android:titleCondensed="Relatives"></item>
+        
+    <item android:id="@+id/action_see_table_layouts" android:title="TableLayouts" android:titleCondensed="Tables"></item>
+    
 </menu>

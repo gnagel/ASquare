@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DemoActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stacked RelativeLayouts" />
+
+
+    <com.mws.llc.libs.asquare.SquareRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+		android:background="#000" />
+    
+    <com.mws.llc.libs.asquare.SquareRelativeLayout
+        android:layout_width="450dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+        android:minWidth="50dip"
+        android:background="#444" />
+
+    <com.mws.llc.libs.asquare.SquareRelativeLayout
+        android:layout_width="250dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+        android:minWidth="50dip"
+		android:background="#000" />
+
+    
+    <com.mws.llc.libs.asquare.SquareRelativeLayout
+        android:layout_width="150dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+        android:minWidth="150dip"
+        android:background="#444" />
+
+    
+    <com.mws.llc.libs.asquare.SquareRelativeLayout
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|left"
+        android:minWidth="50dip"
+		android:background="#000" />
+</FrameLayout>
