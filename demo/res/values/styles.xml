@@ -1,8 +1,4 @@
 <resources>
-
-    <declare-styleable name="SquareImageView" parent="@android:style/TextAppearance">
-        <attr name="android:minWidth" />
-    </declare-styleable>
     
     <!--
         Base application theme, dependent on API level. This theme is replaced

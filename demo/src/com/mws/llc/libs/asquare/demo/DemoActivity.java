@@ -1,4 +1,9 @@
-package com.mws.llc.libs.asquare;
+package com.mws.llc.libs.asquare.demo;
+
+import com.mws.llc.libs.asquare.demo.R;
+import com.mws.llc.libs.asquare.demo.R.id;
+import com.mws.llc.libs.asquare.demo.R.layout;
+import com.mws.llc.libs.asquare.demo.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
