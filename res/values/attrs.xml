@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SquareImageView"  />
+    <declare-styleable name="SquareTextView"  />
+    <declare-styleable name="SquareFrameLayout" >
+        <!-- Makes the view be at most this many pixels tall. -->
+        <attr name="android:maxHeight" />
+        <!-- Makes the view be at most this many pixels wide. -->
+        <attr name="android:maxWidth" />
+    </declare-styleable>
+    <declare-styleable name="SquareRelativeLayout" >
+        <!-- Makes the view be at most this many pixels tall. -->
+        <attr name="android:maxHeight" />
+        <!-- Makes the view be at most this many pixels wide. -->
+        <attr name="android:maxWidth" />
+    </declare-styleable>
+    <declare-styleable name="SquareLinearLayout" >
+        <!-- Makes the view be at most this many pixels tall. -->
+        <attr name="android:maxHeight" />
+        <!-- Makes the view be at most this many pixels wide. -->
+        <attr name="android:maxWidth" />
+    </declare-styleable>
+    <declare-styleable name="SquareTableLayout" >
+        <!-- Makes the view be at most this many pixels tall. -->
+        <attr name="android:maxHeight" />
+        <!-- Makes the view be at most this many pixels wide. -->
+        <attr name="android:maxWidth" />
+    </declare-styleable>
+</resources>

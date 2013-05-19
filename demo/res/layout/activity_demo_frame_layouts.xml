@@ -19,17 +19,21 @@
         android:layout_gravity="bottom|left"
 		android:background="#000" />
     
+    <!-- Support Max Width field -->
     <com.mws.llc.libs.asquare.SquareFrameLayout
-        android:layout_width="450dip"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="bottom|left"
+        android:maxWidth="450dip"
         android:minWidth="50dip"
         android:background="#444" />
 
+    <!-- Support Max Height field -->
     <com.mws.llc.libs.asquare.SquareFrameLayout
-        android:layout_width="250dip"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="bottom|left"
+        android:maxHeight="250dip"
         android:minWidth="50dip"
 		android:background="#000" />
 
